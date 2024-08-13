@@ -23,7 +23,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/tatumertanen/ultimate-selfimprovement-guide' },
+      { icon: 'github', link: 'https://github.com/tatumertanen/ultimate-self-improvement-guide' },
       { icon: 'discord', link: 'https://discord.gg/mKtJDGHRpj' }
     ]
   }
