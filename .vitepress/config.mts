@@ -22,7 +22,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/tatumertanen/ultimate-selfimprovement-guide' },
+      { icon: 'discord', link: 'https://discord.gg/mKtJDGHRpj' }
     ]
   }
 })
