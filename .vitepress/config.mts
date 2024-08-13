@@ -10,7 +10,6 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
     ],
-
     sidebar: [
       {
         text: 'What is self-improvement?',
@@ -21,10 +20,12 @@ export default defineConfig({
         link: '/transparency',
       },
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/tatumertanen/ultimate-self-improvement-guide' },
       { icon: 'discord', link: 'https://discord.gg/mKtJDGHRpj' }
-    ]
+    ],
+    search: {
+      provider: 'local'
+    }
   }
 })
