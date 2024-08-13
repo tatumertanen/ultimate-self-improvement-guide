@@ -47,7 +47,7 @@ export default defineConfig({
       copyright: 'Copyright © 2024-present'
     },
     editLink: {
-      pattern: 'https://github.com/tatumertanen/ultimate-self-improvement-guide/edit/main/:path',
+      pattern: 'https://github.com/tatumertanen/ultimate-self-improvement-guide/edit/main/docs/:path',
       text: 'Suggest edits to this page'
     }
   }
