@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Habitmaxx"
+  name: "USIG"
   text: "Ultimate Self-Improvement Guide"
   tagline: My great project tagline
   actions:
