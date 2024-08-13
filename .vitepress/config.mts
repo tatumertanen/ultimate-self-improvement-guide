@@ -4,6 +4,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Ultimate Self-Improvement Guide",
   description: "Ultimate Self-Improvement Guide",
+  head: [["base", { href: "/ultimate-self-improvement-guide" }]],
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
