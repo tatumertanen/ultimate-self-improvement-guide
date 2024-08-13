@@ -1,14 +1,13 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'en-US',
-  title: "Habitmaxx",
-  description: "Self-Improvement",
+  title: "Habitmaxx | Ultimate Self-Improvement Guide",
+  description: "This is a open source guide to self-improvement. Find methods, guides, techniques, all for free. Contribute to the guides with the newest information and join a community of alike minded people.",
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   cleanUrls: true,
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    siteTitle: "Habitmaxx",
     logo: '/favicon.png',
     nav: [
       { text: 'Home', link: '/' },
