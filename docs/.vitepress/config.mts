@@ -32,6 +32,8 @@ export default defineConfig({
     logo: '/favicon.png',
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Contribute', link: '/contribute' },
+      { text: 'Support', link: 'https://buymeacoffee.com/selfimprovementguide' },
     ],
     sidebar: [
       {
