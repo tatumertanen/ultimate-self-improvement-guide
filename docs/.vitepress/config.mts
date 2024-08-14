@@ -27,12 +27,13 @@ export default defineConfig({
   ],
   lastUpdated: true,
   cleanUrls: true,
+
   themeConfig: {
     siteTitle: "Habitmaxx",
     logo: '/favicon.png',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Contribute', link: '/contribute' },
+      { text: 'Contribute', link: '/contributing' },
       { text: 'Support', link: 'https://buymeacoffee.com/selfimprovementguide' },
     ],
     sidebar: [
