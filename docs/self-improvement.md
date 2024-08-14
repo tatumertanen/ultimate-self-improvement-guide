@@ -9,7 +9,7 @@ Hey there! We're excited to have you join us on this self-improvement journey. O
 
 ## Table of Contents
 
-- [Goal Setting](goal-setting.md)
+<!-- - [Goal Setting](goal-setting.md)
 - [Time Management](time-management.md)
 - [Productivity](productivity.md) 
 - [Mindfulness](mindfulness.md)
@@ -18,7 +18,7 @@ Hey there! We're excited to have you join us on this self-improvement journey. O
 - [Habits](habits.md)
 - [Health and Wellness](health-wellness.md)
 - [Relationships](relationships.md)
-- [Career Development](career-development.md)
+- [Career Development](career-development.md) -->
 
 ## Introduction
 
