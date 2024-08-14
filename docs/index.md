@@ -8,8 +8,14 @@ hero:
   tagline: Ultimate Free Self-Improvement Guide
   actions:
     - theme: brand
-      text: Start
+      text: Get Started
       link: /self-improvement
+    - theme: alt
+      text: Join Discussion
+      link: https://discord.gg/mKtJDGHRpj
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/tatumertanen/ultimate-self-improvement-guide
   image:
     src: /favicon.svg
     alt: Habitmaxx Logo
