@@ -1,10 +1,12 @@
 import { defineConfig } from 'vitepress'
+import { DISCORD_INVITE, REPO_URL } from '../../consts'
 
 export default defineConfig({
   lang: 'en-US',
   title: "Habitmaxx | Ultimate Self-Improvement Guide",
   description: "This is a open source guide to self-improvement. Find methods, guides, techniques, all for free. Contribute to the guides with the newest information and join a community of alike minded people.",
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  lastUpdated: true,
   cleanUrls: true,
   themeConfig: {
     siteTitle: "Habitmaxx",
@@ -21,21 +23,27 @@ export default defineConfig({
         text: 'Transparency',
         link: '/transparency',
       },
+      // {
+      //   text: 'Methods (placeholder)',
+      //   items: [
+      //     { text: 'Habit Tracking', link: '/methods/habit-tracking' },
+      //     { text: 'Goal Setting', link: '/methods/goal-setting' },
+      //     { text: 'Mindfulness', link: '/methods/mindfulness' },
+      //     { text: 'Time Management', link: '/methods/time-management' },
+      //     { text: 'Productivity', link: '/methods/productivity' },
+      //     { text: 'Mindfulness', link: '/methods/mindfulness' },
+      //   ]
+      // },
       {
-        text: 'Methods (placeholder)',
         items: [
-          { text: 'Habit Tracking', link: '/methods/habit-tracking' },
-          { text: 'Goal Setting', link: '/methods/goal-setting' },
-          { text: 'Mindfulness', link: '/methods/mindfulness' },
-          { text: 'Time Management', link: '/methods/time-management' },
-          { text: 'Productivity', link: '/methods/productivity' },
-          { text: 'Mindfulness', link: '/methods/mindfulness' },
+          { text: 'Contributing', link: '/contributing' },
+          // { text: 'Our Mission', link: '/mission' },
         ]
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/tatumertanen/ultimate-self-improvement-guide' },
-      { icon: 'discord', link: 'https://discord.gg/mKtJDGHRpj' }
+      { icon: 'github', link: REPO_URL },
+      { icon: 'discord', link: DISCORD_INVITE }
     ],
     search: {
       provider: 'local'
