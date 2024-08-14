@@ -35,28 +35,36 @@ export default defineConfig({
     ],
     sidebar: [
       {
-        text: 'Getting Started',
-        link: '/self-improvement',
+        items: [
+          {
+            text: 'Getting Started',
+            link: '/self-improvement',
+          },
+          {
+            text: 'What Is This?',
+            link: '/explained',
+          },
+          {
+            text: 'Our Mission',
+            link: '/transparency',
+          },
+        ]
       },
       {
-        text: 'Transparency',
-        link: '/transparency',
+        text: 'Methods',
+        items: [
+          { text: 'Habits', link: '/methods/habits' },
+          { text: 'Goals', link: '/methods/goals' },
+          { text: 'Sleep', link: '/methods/sleep' },
+          // { text: 'Mindfulness', link: '/methods/mindfulness' },
+          // { text: 'Time Management', link: '/methods/time-management' },
+          // { text: 'Productivity', link: '/methods/productivity' },
+          // { text: 'Mindfulness', link: '/methods/mindfulness' },
+        ]
       },
-      // {
-      //   text: 'Methods (placeholder)',
-      //   items: [
-      //     { text: 'Habit Tracking', link: '/methods/habit-tracking' },
-      //     { text: 'Goal Setting', link: '/methods/goal-setting' },
-      //     { text: 'Mindfulness', link: '/methods/mindfulness' },
-      //     { text: 'Time Management', link: '/methods/time-management' },
-      //     { text: 'Productivity', link: '/methods/productivity' },
-      //     { text: 'Mindfulness', link: '/methods/mindfulness' },
-      //   ]
-      // },
       {
         items: [
           { text: 'Contributing', link: '/contributing' },
-          // { text: 'Our Mission', link: '/mission' },
         ]
       }
     ],
