@@ -80,13 +80,10 @@
   --vp-c-danger-2: var(--vp-c-red-2);
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
-}
 
-/**
- * Component: Button
- * -------------------------------------------------------------------------- */
-
-:root {
+  /**
+  * Component: Button
+  * -------------------------------------------------------------------------- */
   --vp-button-brand-border: transparent;
   --vp-button-brand-text: var(--vp-c-white);
   --vp-button-brand-bg: var(--vp-c-brand-3);
@@ -96,17 +93,22 @@
   --vp-button-brand-active-border: transparent;
   --vp-button-brand-active-text: var(--vp-c-white);
   --vp-button-brand-active-bg: var(--vp-c-brand-1);
-}
 
-/**
- * Component: Home
- * -------------------------------------------------------------------------- */
-
-:root {
+  /**
+  * Component: Home
+  * -------------------------------------------------------------------------- */
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: var(--brand-color);
   --vp-home-hero-image-background-image: var(--brand-color);
   --vp-home-hero-image-filter: blur(44px);
+
+  /**
+  * Component: Custom Block
+  * -------------------------------------------------------------------------- */
+  --vp-custom-block-tip-border: transparent;
+  --vp-custom-block-tip-text: var(--vp-c-text-1);
+  --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
+  --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
 }
 
 .VPHero .VPImage {
@@ -134,16 +136,6 @@
   }
 }
 
-/**
- * Component: Custom Block
- * -------------------------------------------------------------------------- */
-
-:root {
-  --vp-custom-block-tip-border: transparent;
-  --vp-custom-block-tip-text: var(--vp-c-text-1);
-  --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
-  --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
-}
 
 /**
  * Component: Algolia
