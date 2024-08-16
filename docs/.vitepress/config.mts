@@ -54,7 +54,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Methods',
+        text: 'Guides',
         items: [
           { text: 'Habits', link: '/methods/habits' },
           { text: 'Goals', link: '/methods/goals' },
@@ -63,6 +63,20 @@ export default defineConfig({
           // { text: 'Time Management', link: '/methods/time-management' },
           // { text: 'Productivity', link: '/methods/productivity' },
           // { text: 'Mindfulness', link: '/methods/mindfulness' },
+        ]
+      },
+      {
+        text: 'Methods',
+        items: [
+          {
+            text: 'Looksmaxxing',
+            // items: [
+            //   {
+            //     text: 'Hair',
+            //     link: '/methods/looksmaxxing/hair'
+            //   }
+            // ]
+          }
         ]
       },
       {
