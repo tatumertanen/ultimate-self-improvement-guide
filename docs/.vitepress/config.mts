@@ -40,8 +40,7 @@ export default defineConfig({
 				text: "Guides",
 				collapsed: false,
 				items: [
-					{ text: "Habits: Build Good Ones", link: "/guides/habits" },
-					{ text: "Habits: Break Bad Ones", link: "/guides/bad-habits" },
+					{ text: "Habits", link: "/guides/habits" },
 					{ text: "Goals", link: "/guides/goals" },
 					{ text: "Sleep", link: "/guides/sleep" },
 				],
@@ -84,6 +83,7 @@ export default defineConfig({
 						text: "Contributing",
 						link: "/contributing",
 					},
+					{ text: "Contact", link: "/contact" },
 					{ text: "Discord", link: DISCORD_INVITE },
 				],
 			},
