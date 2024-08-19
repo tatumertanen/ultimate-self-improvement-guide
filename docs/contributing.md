@@ -44,7 +44,7 @@ If you encounter any issues or have suggestions for improvements, please open an
 
 If you have any questions or need further assistance, feel free to reach out to the maintainers of this repository. You can contact us via the following channels:
 
--   Email: [maintainer@habitmaxx.com](/contact)
--   Discord: [Community/Discussion Server](/contact)
+-   Email: [contact@habitmaxx.com](mailto:contact@habitmaxx.com)
+-   Discord: `(link in top right corner)`
 
 We appreciate your contributions and look forward to collaborating with you to make this self improvement guide even better!
