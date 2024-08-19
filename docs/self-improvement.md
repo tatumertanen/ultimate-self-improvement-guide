@@ -11,7 +11,7 @@ Hey there! We're excited to have you join us on this self-improvement journey. O
 
 <!-- - [Goal Setting](goal-setting.md)
 - [Time Management](time-management.md)
-- [Productivity](productivity.md) 
+- [Productivity](productivity.md)
 - [Mindfulness](mindfulness.md)
 - [Learning](learning.md)
 - [Motivation](motivation.md)

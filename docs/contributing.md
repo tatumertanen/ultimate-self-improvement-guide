@@ -18,13 +18,13 @@ To get started with contributing, please follow these steps:
 
 To ensure a smooth contribution process, please adhere to the following guidelines:
 
-- Add sources and references to all content to ensure accuracy and credibility.
-- Ensure that your contributions align with the purpose and scope of the self improvement guide.
-- Follow the existing formatting and style conventions used in the markdown files.
-- Provide clear and concise commit messages and pull request descriptions.
-- If you are adding new content, make sure it is well-structured and easy to understand.
-- If you are modifying existing content, explain the reasoning behind your changes in the pull request description.
-- Be respectful and considerate towards other contributors and maintainers.
+-   Add sources and references to all content to ensure accuracy and credibility.
+-   Ensure that your contributions align with the purpose and scope of the self improvement guide.
+-   Follow the existing formatting and style conventions used in the markdown files.
+-   Provide clear and concise commit messages and pull request descriptions.
+-   If you are adding new content, make sure it is well-structured and easy to understand.
+-   If you are modifying existing content, explain the reasoning behind your changes in the pull request description.
+-   Be respectful and considerate towards other contributors and maintainers.
 
 ## Development Setup
 
@@ -44,7 +44,7 @@ If you encounter any issues or have suggestions for improvements, please open an
 
 If you have any questions or need further assistance, feel free to reach out to the maintainers of this repository. You can contact us via the following channels:
 
-- Email: [maintainer@habitmaxx.com](/contact)
-- Discord: [Community/Discussion Server](/contact)
+-   Email: [maintainer@habitmaxx.com](/contact)
+-   Discord: [Community/Discussion Server](/contact)
 
 We appreciate your contributions and look forward to collaborating with you to make this self improvement guide even better!
