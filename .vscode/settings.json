@@ -1,11 +1,11 @@
 {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": false,
-    "prettier.useEditorConfig": false,
-    "prettier.useTabs": true,
-    "prettier.configPath": ".prettierrc",
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+	"editor.defaultFormatter": "Jota0222.multi-formatter",
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": false,
+	"prettier.useEditorConfig": false,
+	"prettier.useTabs": true,
+	"prettier.configPath": ".prettierrc",
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
 }
