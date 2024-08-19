@@ -113,6 +113,9 @@ export default defineConfig({
 		["link", { rel: "icon", href: "/favicon.ico" }],
 		["meta", { property: "og:image", content: "/banner.png" }],
 		["meta", { name: "twitter:image", content: "/banner.png" }],
+		["meta", { property: "og:image:type", content: "image/png" }],
+		["meta", { property: "og:image:width", content: "1412" }],
+		["meta", { property: "og:image:height", content: "564" }],
 		[
 			"script",
 			{
