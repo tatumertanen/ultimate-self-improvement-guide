@@ -1,6 +1,6 @@
 # Ultimate Self-Improvement Guide
 
-![Habitmaxx Banner](/banner.png)
+![Habitmaxx Banner](/docs/public/banner.png)
 
 Welcome to the Ultimate Self-Improvement Guide! This project is a collection of methods and guides related to self-improvement. We aim to keep the project open and easy to update so that the guides can be improved over time. We have a Discord server at https://discord.gg/mKtJDGHRpj where we discuss updates to the guides.
 
