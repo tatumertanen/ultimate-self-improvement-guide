@@ -13,7 +13,7 @@ export default defineConfig({
 			{ text: "Home", link: "/" },
 			{ text: "Contribute", link: "/contributing" },
 			{
-				text: "☕ BuyMeACoffee",
+				text: "Donate",
 				link: "https://buymeacoffee.com/selfimprovementguide",
 			},
 		],
