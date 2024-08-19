@@ -12,10 +12,6 @@ export default defineConfig({
 		nav: [
 			{ text: "Home", link: "/" },
 			{ text: "Contribute", link: "/contributing" },
-			{
-				text: "Donate",
-				link: "https://buymeacoffee.com/selfimprovementguide",
-			},
 		],
 		sidebar: [
 			{
@@ -29,10 +25,6 @@ export default defineConfig({
 					{
 						text: "What Is Habitmaxx?",
 						link: "/explained",
-					},
-					{
-						text: "Transparency",
-						link: "/transparency",
 					},
 				],
 			},
@@ -51,7 +43,7 @@ export default defineConfig({
 				items: [
 					{
 						text: "Looksmaxxing",
-						collapsed: true,
+						link: "/methods/looksmaxxing",
 					},
 				],
 			},
@@ -61,19 +53,27 @@ export default defineConfig({
 				items: [
 					{
 						text: "Books",
-						link: "/resources/books",
+						link: "/resources#books",
+					},
+					{
+						text: "Guides",
+						link: "/resources#guides",
 					},
 					{
 						text: "Podcasts",
-						link: "/resources/podcasts",
+						link: "/resources#podcasts",
 					},
 					{
 						text: "YouTube Channels",
-						link: "/resources/youtube-channels",
+						link: "/resources#youtube-channels",
 					},
 					{
 						text: "Websites",
-						link: "/resources/websites",
+						link: "/resources#websites",
+					},
+					{
+						text: "Apps",
+						link: "/resources#apps",
 					},
 				],
 			},
@@ -83,8 +83,12 @@ export default defineConfig({
 						text: "Contributing",
 						link: "/contributing",
 					},
-					{ text: "Contact", link: "/contact" },
+					{ text: "Contact", link: "/contributing#contact" },
 					{ text: "Discord", link: DISCORD_INVITE },
+					{
+						text: "Support Us",
+						link: "https://buymeacoffee.com/selfimprovementguide",
+					},
 				],
 			},
 		],
