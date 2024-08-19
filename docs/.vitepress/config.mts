@@ -111,6 +111,8 @@ export default defineConfig({
 	},
 	head: [
 		["link", { rel: "icon", href: "/favicon.ico" }],
+		["meta", { property: "og:image", content: "/banner.png" }],
+		["meta", { name: "twitter:image", content: "/banner.png" }],
 		[
 			"script",
 			{
