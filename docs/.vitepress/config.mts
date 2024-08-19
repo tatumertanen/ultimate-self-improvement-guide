@@ -19,34 +19,40 @@ export default defineConfig({
 		],
 		sidebar: [
 			{
+				text: "Introduction",
+				collapsed: false,
 				items: [
 					{
 						text: "Getting Started",
 						link: "/self-improvement",
 					},
 					{
-						text: "What Is This?",
+						text: "What Is Habitmaxx?",
 						link: "/explained",
 					},
 					{
-						text: "Our Mission",
+						text: "Transparency",
 						link: "/transparency",
 					},
 				],
 			},
 			{
 				text: "Guides",
+				collapsed: false,
 				items: [
-					{ text: "Habits", link: "/guides/habits" },
+					{ text: "Habits: Build Good Ones", link: "/guides/habits" },
+					{ text: "Habits: Break Bad Ones", link: "/guides/bad-habits" },
 					{ text: "Goals", link: "/guides/goals" },
 					{ text: "Sleep", link: "/guides/sleep" },
 				],
 			},
 			{
 				text: "Methods",
+				collapsed: false,
 				items: [
 					{
 						text: "Looksmaxxing",
+						collapsed: true,
 					},
 				],
 			},
@@ -78,7 +84,7 @@ export default defineConfig({
 						text: "Contributing",
 						link: "/contributing",
 					},
-					{ text: "Join Our Community", link: DISCORD_INVITE },
+					{ text: "Discord", link: DISCORD_INVITE },
 				],
 			},
 		],
