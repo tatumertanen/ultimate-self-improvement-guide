@@ -1,24 +1,6 @@
----
-# this is the home page of the docs
-# add links (table of contents) at the start
----
-
 # Self-Improvement
 
 Hey there! We're excited to have you join us on this self-improvement journey. Our goal is to create a space where we can learn and grow together, sharing practical tips and strategies along the way. Whether you're a self-improvement newbie or a seasoned pro, we've got something for everyone.
-
-## Table of Contents
-
-<!-- - [Goal Setting](goal-setting.md)
-- [Time Management](time-management.md)
-- [Productivity](productivity.md)
-- [Mindfulness](mindfulness.md)
-- [Learning](learning.md)
-- [Motivation](motivation.md)
-- [Habits](habits.md)
-- [Health and Wellness](health-wellness.md)
-- [Relationships](relationships.md)
-- [Career Development](career-development.md) -->
 
 ## Introduction
 
