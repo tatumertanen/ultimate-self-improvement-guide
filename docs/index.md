@@ -11,7 +11,7 @@ hero:
           text: Get Started
           link: /self-improvement
         - theme: alt
-          text: Join Our Community
+          text: Community
           link: https://discord.gg/mKtJDGHRpj
         - theme: alt
           text: View on GitHub
