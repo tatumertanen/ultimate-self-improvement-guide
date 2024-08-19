@@ -37,22 +37,9 @@ export default defineConfig({
 			{
 				text: "Guides",
 				items: [
-					{
-						text: "Habits",
-						link: "/methods/habits",
-					},
-					{
-						text: "Goals",
-						link: "/methods/goals",
-					},
-					{
-						text: "Sleep",
-						link: "/methods/sleep",
-					},
-					// { text: 'Mindfulness', link: '/methods/mindfulness' },
-					// { text: 'Time Management', link: '/methods/time-management' },
-					// { text: 'Productivity', link: '/methods/productivity' },
-					// { text: 'Mindfulness', link: '/methods/mindfulness' },
+					{ text: "Habits", link: "/guides/habits" },
+					{ text: "Goals", link: "/guides/goals" },
+					{ text: "Sleep", link: "/guides/sleep" },
 				],
 			},
 			{
@@ -60,12 +47,28 @@ export default defineConfig({
 				items: [
 					{
 						text: "Looksmaxxing",
-						// items: [
-						//   {
-						//     text: 'Hair',
-						//     link: '/methods/looksmaxxing/hair'
-						//   }
-						// ]
+					},
+				],
+			},
+			{
+				text: "Resources",
+				collapsed: false,
+				items: [
+					{
+						text: "Books",
+						link: "/resources/books",
+					},
+					{
+						text: "Podcasts",
+						link: "/resources/podcasts",
+					},
+					{
+						text: "YouTube Channels",
+						link: "/resources/youtube-channels",
+					},
+					{
+						text: "Websites",
+						link: "/resources/websites",
 					},
 				],
 			},
@@ -75,6 +78,7 @@ export default defineConfig({
 						text: "Contributing",
 						link: "/contributing",
 					},
+					{ text: "Join Our Community", link: DISCORD_INVITE },
 				],
 			},
 		],
