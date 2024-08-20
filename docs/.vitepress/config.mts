@@ -56,10 +56,6 @@ export default defineConfig({
 						link: "/resources#books",
 					},
 					{
-						text: "Guides",
-						link: "/resources#guides",
-					},
-					{
 						text: "Podcasts",
 						link: "/resources#podcasts",
 					},

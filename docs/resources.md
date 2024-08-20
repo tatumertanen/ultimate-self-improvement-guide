@@ -1,4 +1,15 @@
-# Self-Improvement Resources
+---
+title: Top Self-Improvement Resources 2024
+description: Best self-improvement resources such as books, podcasts, and websites.
+---
+
+# 📚 Self-Improvement Resources
+
+A list of curated resources that can help you with self-improvement.
+
+::: info DISCLAIMER
+Some of the links may be affiliated, at no extra cost to you. These links support this project.
+:::
 
 ## Books
 
@@ -8,10 +19,6 @@
 -   [The 4-Hour Workweek](https://www.amazon.com/4-Hour-Workweek-Escape-Live-Anywhere/dp/0307465357?tag=azzsqosq-20) by Timothy Ferriss
 -   [The Subtle Art of Not Giving a F\*ck](https://www.amazon.com/Subtle-Art-Not-Giving-Counterintuitive/dp/0062457713?tag=azzsqosq-20) by Mark Manson
 -   [How to Win Friends & Influence People](https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034?tag=azzsqosq-20) by Dale Carnegie
-
-## Guides
-
--   [**Habitmaxx**](https://habitmaxx.com/) (the site you are on right now!)
 
 ## Podcasts
 
@@ -44,14 +51,8 @@
 
 ## Websites
 
-Nothing in this category yet! Add more by [contributing](/contributing)!
+Nothing here yet!
 
 ## Apps
 
-Nothing in this category yet! Add more by [contributing](/contributing)!
-
-## Disclaimer
-
-::: tip LINKS
-Some of the links may be affiliated, at no extra cost to you. These links support this project.
-:::
+Nothing here yet!
