@@ -22,10 +22,10 @@ export default defineConfig({
 						text: "Getting Started",
 						link: "/self-improvement",
 					},
-					{
-						text: "What Is Habitmaxx?",
-						link: "/explained",
-					},
+					// {
+					// 	text: "What Is Habitmaxx?",
+					// 	link: "/explained",
+					// },
 				],
 			},
 			{
