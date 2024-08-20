@@ -19,12 +19,14 @@ hero:
     image:
         src: /favicon.svg
         alt: Habitmaxx Logo
-
 features:
-    - title: Goal Setting
-      details: Learn how to set effective goals and create a plan to achieve them
-    - title: Time Management
-      details: Discover strategies to manage your time efficiently and boost productivity
-    - title: Habit Formation
-      details: Develop positive habits and break negative ones for lasting self-improvement
+    - title: Self-Improvement Guide
+      details: Learn everything about self-improvement, from goal setting to mindfulness.
+      icon: 🚀
+    - title: Free for Everyone
+      details: Enjoy unlimited access to all content and resources without any fees.
+      icon: ✨
+    - title: Open Source
+      details: Contribute to the project and help others improve their lives.
+      icon: 💻
 ---
