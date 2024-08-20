@@ -19,9 +19,9 @@ export default defineConfig({
 	themeConfig: {
 		siteTitle: "Habitmaxx",
 		nav: [
-			{ text: "Home", link: "/" },
-			{ text: "Contribute", link: "/contributing" },
-			{ text: "Guides", items: guides },
+			{ text: "📚 Guides", items: guides },
+			{ text: "📝 Contributing", link: "/contributing" },
+			{ text: "🗣 Glossary", link: "/glossary" },
 		],
 		sidebar: [
 			{
