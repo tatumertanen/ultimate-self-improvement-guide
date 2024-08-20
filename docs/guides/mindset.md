@@ -1,3 +1,3 @@
-# Goals
+# Mindset
 
 This guide is empty.

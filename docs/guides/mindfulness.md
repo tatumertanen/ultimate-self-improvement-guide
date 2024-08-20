@@ -1,3 +1,3 @@
-# Goals
+# Mindfulness
 
 This guide is empty.

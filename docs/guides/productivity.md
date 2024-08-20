@@ -1,3 +1,3 @@
-# Goals
+# Productivity
 
 This guide is empty.
