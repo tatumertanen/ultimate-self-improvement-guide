@@ -44,7 +44,11 @@ If you encounter any issues or have suggestions for improvements, please open an
 
 If you have any questions or need further assistance, feel free to reach out to the maintainers of this repository. You can contact us via the following channels:
 
--   Email: [contact@habitmaxx.com](mailto:contact@habitmaxx.com)
--   Discord: `(link in top right corner)`
+<script setup>
+import { DISCORD_INVITE } from '../consts'
+</script>
+
+-   Email: contributing@habitmaxx.com
+-   Discord: <a :href="DISCORD_INVITE">{{ DISCORD_INVITE }}</a>
 
 We appreciate your contributions and look forward to collaborating with you to make this self improvement guide even better!
