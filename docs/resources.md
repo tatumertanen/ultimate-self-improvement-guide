@@ -7,9 +7,7 @@ description: Best self-improvement resources such as books, podcasts, and websit
 
 A list of curated resources that can help you with self-improvement.
 
-::: info DISCLAIMER
-Some of the links may be affiliated, at no extra cost to you. These links support this project.
-:::
+<Badge type="info" text="ⓘ Some of the links may be affiliated, at no extra cost to you. These links support this project." />
 
 ## Books
 
