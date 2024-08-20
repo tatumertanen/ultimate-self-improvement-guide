@@ -1,5 +1,6 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
+
 layout: home
 
 hero:
@@ -30,3 +31,24 @@ features:
       details: Contribute to the project and help others improve their lives.
       icon: 💻
 ---
+
+<script setup>
+import {
+  VPTeamPage,
+  VPTeamPageSection, 
+  VPTeamPageTitle,
+  VPTeamMembers
+} from 'vitepress/theme'
+import { members } from "../config/team"
+</script>
+<br />
+<br />
+<br />
+<br />
+
+## Maintained by
+
+<VPTeamMembers
+  size="small"
+  :members="members"
+/>
