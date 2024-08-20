@@ -102,7 +102,7 @@ export default defineConfig({
 		},
 		footer: {
 			message: "Founded with 💙 in Finland",
-			copyright: "Copyright © 2024-present",
+			copyright: "© Copyright 2024 Habitmaxx. All Rights Reserved.",
 		},
 		editLink: {
 			pattern: `${REPO_URL}/edit/main/docs/:path`,
