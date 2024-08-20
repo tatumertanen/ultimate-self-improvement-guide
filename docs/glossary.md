@@ -1,6 +1,6 @@
-Self-Improvement Glossary
+# Self-Improvement Glossary
 
-This is a alpphabetical list of terms that are used in the self-improvement community.
+This is a alphabetical list of terms that are used in the self-improvement community.
 
 ## A
 
