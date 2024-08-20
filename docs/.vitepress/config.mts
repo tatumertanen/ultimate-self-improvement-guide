@@ -1,6 +1,15 @@
 import { defineConfig } from "vitepress";
 import { DISCORD_INVITE, GTAG, HOSTNAME, REPO_URL } from "../../consts";
 
+const guides = [
+	{ text: "Habits", link: "/guides/habits" },
+	{ text: "Sleep", link: "/guides/sleep" },
+	{ text: "<s>Goals</s>", link: "/guides/goals" },
+	{ text: "<s>Productivity</s>", link: "/guides/productivity" },
+	{ text: "<s>Mindset</s>", link: "/guides/mindset" },
+	{ text: "<s>Mindfulness</s>", link: "/guides/mindfulness" },
+];
+
 export default defineConfig({
 	lang: "en-US",
 	title: "Habitmaxx | Ultimate Self-Improvement Guide",
@@ -12,6 +21,7 @@ export default defineConfig({
 		nav: [
 			{ text: "Home", link: "/" },
 			{ text: "Contribute", link: "/contributing" },
+			{ text: "Guides", items: guides },
 		],
 		sidebar: [
 			{
@@ -22,20 +32,12 @@ export default defineConfig({
 						text: "Getting Started",
 						link: "/self-improvement",
 					},
-					// {
-					// 	text: "What Is Habitmaxx?",
-					// 	link: "/explained",
-					// },
 				],
 			},
 			{
 				text: "Guides",
 				collapsed: false,
-				items: [
-					{ text: "Habits", link: "/guides/habits" },
-					{ text: "Goals", link: "/guides/goals" },
-					{ text: "Sleep", link: "/guides/sleep" },
-				],
+				items: guides,
 			},
 			{
 				text: "Methods",
@@ -76,10 +78,14 @@ export default defineConfig({
 			{
 				items: [
 					{
+						text: "Glossary",
+						link: "/glossary",
+					},
+					{
 						text: "Contributing",
 						link: "/contributing",
 					},
-					{ text: "Contact", link: "/contributing#contact" },
+					{ text: "Contact", link: "/contact" },
 					{ text: "Discord", link: DISCORD_INVITE },
 					{
 						text: "Support Us",
