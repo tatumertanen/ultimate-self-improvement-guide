@@ -1,19 +1,34 @@
-# Self-Improvement
+---
+title: Getting Started With Self-Improvement
+---
 
-Hey there! We're excited to have you join us on this self-improvement journey. Our goal is to create a space where we can learn and grow together, sharing practical tips and strategies along the way. Whether you're a self-improvement newbie or a seasoned pro, we've got something for everyone.
+# 🚀 Getting Started With Self-Improvement
 
-## Introduction
+## 📜 Guides
 
-We've broken things down into different topics so you can dive into the areas that interest you most. And if you're not sure where to start, no worries! We recommend checking out the sections that speak to your current goals and challenges.
+`The guides are comprehensive collections of valuable infromation.`
 
-## Personalize Your Journey
+-   [**Habits**](/guides/habits) Learn about habits and how to build them.
+-   [**Goals**](/guides/goals) Learn about goals and how to set SMART goals.
+-   [**Sleep**](/guides/Sleep) Learn about sleep and how to improve it.
 
-As you explore, keep in mind that self-improvement looks different for everyone. What works for your best friend or favorite influencer might not be the right fit for you, and that's okay. Feel free to experiment, adapt, and make these strategies your own.
+## ⚙ Methods & Techniques
 
-## Collaborate With Us
+`The method guides are collections of specific techniques.`
 
-We're always looking for ways to make this guide even better, so if you have ideas for new topics or ways we can improve, don't be shy! We'd love to hear from you and collaborate to create a resource that truly helps people thrive.
+-   [**Looksmaxxing**](/methods/mindfulness) Best looksmaxxing techniques & methods.
+-   [**Journaling**](/methods/journaling) Best journaling techniques & methods.
 
-## Let's Get Started
+## 📚 Resources
 
-Thanks for being here and joining us on this adventure. We're honored to be a part of your journey and can't wait to see where it takes you. Let's dive in and start making some positive changes!
+`The resources are collections of useful exteranl resources.`
+
+-   [**Books**](/resources/books) Best books for self-improvement.
+-   [**Podcasts**](/resources/podcasts) Best podcasts for self-improvement.
+-   [**Websites**](/resources/websites) Best websites for self-improvement.
+-   [**Tools**](/resources/tools) Best tools for self-improvement.
+
+## 🔗 Other Links
+
+-   [**Contributing**](/contributing)
+-   [**Discord**](https://discord.gg/mKtJDGHRpj)
