@@ -1,13 +1,18 @@
 import { defineConfig } from "vitepress";
 import { DISCORD_INVITE, GTAG, HOSTNAME, REPO_URL } from "../../consts";
 
-const guides = [
+type Guide = {
+	text: string;
+	link: string;
+};
+
+const guides: Guide[] = [
 	{ text: "Habits", link: "/guides/habits" },
 	{ text: "Sleep", link: "/guides/sleep" },
-	{ text: "<s>Goals</s>", link: "/guides/goals" },
-	{ text: "<s>Productivity</s>", link: "/guides/productivity" },
-	{ text: "<s>Mindset</s>", link: "/guides/mindset" },
-	{ text: "<s>Mindfulness</s>", link: "/guides/mindfulness" },
+	// { text: "<s>Goals</s>", link: "/guides/goals" },
+	// { text: "<s>Productivity</s>", link: "/guides/productivity" },
+	// { text: "<s>Mindset</s>", link: "/guides/mindset" },
+	// { text: "<s>Mindfulness</s>", link: "/guides/mindfulness" },
 ];
 
 export default defineConfig({
