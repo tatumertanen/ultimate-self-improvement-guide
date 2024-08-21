@@ -8,7 +8,7 @@ If you want to edit something in this guide, visit our [contributing guide](/con
 
 ## Understanding Habit Loops
 
-Habits are formed through a neurological loop consisting of three elements: cue, routine, and reward. This concept, popularized by Charles Duhigg in his book "The Power of Habit," helps explain why habits are so powerful and how we can leverage this knowledge for personal growth.
+Habits are formed through a neurological loop consisting of three elements: cue, routine, and reward. This concept, popularized by Charles Duhigg in his book "The Power of Habit, " helps explain why habits are so powerful and how we can leverage this knowledge for personal growth.
 
 1. `Cue:` The trigger that initiates the habit
 2. `Routine:` The behavior itself
@@ -22,32 +22,32 @@ Understanding this loop is crucial for creating new habits and breaking bad ones
 
 ### 1. Habit Stacking
 
-Habit stacking, a technique described by James Clear in "Atomic Habits," involves pairing a new habit with an existing one. This method leverages the strength of established habits to build new ones.
+Habit stacking, a technique described by James Clear in "Atomic Habits, " involves pairing a new habit with an existing one. This method leverages the strength of established habits to build new ones.
 
 ::: tip THE HABIT STACK
-Format: `After [CURRENT HABIT], I will [NEW HABIT].`
 
-Example: *After I brush my teeth, I will meditate for 5 minutes.*
-:::
+-   "After [CURRENT HABIT], I will [NEW HABIT]."
+-   Example: _After I brush my teeth, I will meditate for 5 minutes._
+    :::
 
 ### 2. Implementation Intentions
 
 Research by psychologist Peter Gollwitzer shows that setting specific intentions significantly increases the likelihood of following through with a behavior.
 
 ::: tip HABIT INTENTIONS
-Format: `I will [BEHAVIOR] at [TIME] in [LOCATION].`
 
-Example: *I will do 20 push-ups at 7:00 AM in my bedroom.*
-:::
+-   "I will [BEHAVIOR] at [TIME] in [LOCATION]."
+-   Example: _I will do 20 push-ups at 7:00 AM in my bedroom._
+    :::
 
 ### 3. Make it Easy
 
-B.J. Fogg's Tiny Habits method emphasizes starting with extremely small, easy-to-do behaviors to build momentum and consistency.
+B. J. Fogg's Tiny Habits method emphasizes starting with extremely small, easy-to-do behaviors to build momentum and consistency.
 
 ::: tip GUIDE: MAKING HABITS EASY
-- Instead of `"I'll exercise for an hour daily,"`
-start with `"I'll do one push-up after waking up."`
-:::
+
+-   Instead of `"I'll exercise for an hour daily,"` start with `"I'll do one push-up after waking up."`
+    :::
 
 ## Overcoming Common Obstacles
 
@@ -56,30 +56,33 @@ start with `"I'll do one push-up after waking up."`
 Motivation is often unreliable. Instead, focus on building systems that make it easy to perform the desired behavior, as suggested by James Clear.
 
 ::: tip TIP: HOW TO INCREASE MOTIVATION
-- Design your environment to support your habits
-- Use visual cues as reminders
-- Prepare in advance to reduce friction
-:::
+
+-   Design your environment to support your habits
+-   Use visual cues as reminders
+-   Prepare in advance to reduce friction
+    :::
 
 ### 2. Dealing with Setbacks
 
 Setbacks are a normal part of habit formation. Research by Dr. Janet Polivy on the "What the Hell Effect" shows that viewing setbacks as total failures can lead to giving up.
 
 ::: tip TIP: DEALING WITH SETBACKS
-- Use the "never miss twice" rule (if you miss one day, never miss two in a row)
-- Focus on progress, not perfection
-- Analyze setbacks to identify triggers and plan for future obstacles
-:::
+
+-   Use the "never miss twice" rule (if you miss one day, never miss two in a row)
+-   Focus on progress, not perfection
+-   Analyze setbacks to identify triggers and plan for future obstacles
+    :::
 
 ### 3. Maintaining Consistency
 
 Consistency is key to habit formation. Dr. Andrew Huberman emphasizes the importance of leveraging your body's natural rhythms and neuroplasticity for behavior change.
 
 ::: tip TIP: MAINTAINING CONSISTENCY
-- Perform habits at the same time each day to leverage circadian rhythms
-- Use "habit trackers" to visualize progress and maintain motivation
-- Gradually increase difficulty or duration of habits over time
-:::
+
+-   Perform habits at the same time each day to leverage circadian rhythms
+-   Use "habit trackers" to visualize progress and maintain motivation
+-   Gradually increase difficulty or duration of habits over time
+    :::
 
 ## Long-Term Habit Maintenance
 
@@ -88,29 +91,32 @@ Consistency is key to habit formation. Dr. Andrew Huberman emphasizes the import
 Tracking habits provides visual feedback and motivation. Research shows that monitoring progress increases the likelihood of achieving goals.
 
 ::: tip TIP: TRACKING HABITS
-- Use a physical calendar or habit tracking app
-- Implement Jerry Seinfeld's "Don't Break the Chain" method
-:::
+
+-   Use a physical calendar or habit tracking app
+-   Implement Jerry Seinfeld's "Don't Break the Chain" method
+    :::
 
 ### 2. Accountability Partners
 
 Studies show that social support significantly increases adherence to new behaviors.
 
 ::: tip TIPS FOR ACCOUNTABILITY
-- Find a partner with similar goals
-- Schedule regular check-ins
-- Use apps or platforms designed for accountability partnerships
-:::
+
+-   Find a partner with similar goals
+-   Schedule regular check-ins
+-   Use apps or platforms designed for accountability partnerships
+    :::
 
 ### 3. Regular Review and Adjustment
 
 Habits should evolve with your goals and circumstances. Schedule regular reviews to assess and adjust your habits.
 
 ::: tip GUIDE: HABIT REVIEW
-- Monthly habit review and goal alignment
-- Quarterly reassessment of long-term objectives
-- Annual reflection on overall progress and future directions
-:::
+
+-   Monthly habit review and goal alignment
+-   Quarterly reassessment of long-term objectives
+-   Annual reflection on overall progress and future directions
+    :::
 
 ## Conclusion
 

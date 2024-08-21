@@ -47,8 +47,7 @@ It's also important that you go to bed at about the same time each night. Your s
 -   ✔ Meditate! Meditating can help you relax before bed and will help you fall asleep faster.
 -   ✔ Journaling. If you have too many thoughts, you can write them down so they won't keep you awake.
 -   ✔ Going to a warm shower. According to research a warm shower or a bath 1 or 2 hours before going to sleep can help you sleep better. It's because it lowers your body temperature, which is a sign for your body to go to sleep.
-
-:::
+    :::
 
 #### Things you SHOULD NOT do before going to sleep:
 
@@ -59,8 +58,7 @@ It's also important that you go to bed at about the same time each night. Your s
 -   ❌ Do not eat before bed. It can be hard to sleep if you eat too much. It's recommended to not eat anything 2 hours before bed. You can have small snacks like a small fruit or a smoothie.
 -   ❌ Do not drink/use alcohol or nicotine before bed.
 -   ❌ Do not drink caffeine after 2 pm. If you are going to sleep at 11 pm, you should not drink coffee after 2 pm. Caffeine can stay in your body for many hours, and then block the adenosine receptors. Half of the caffeine is out of your body after 4-6 hours. The other half is still there.
-
-:::
+    :::
 
 ### Going To Sleep
 
