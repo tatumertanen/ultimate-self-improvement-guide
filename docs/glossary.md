@@ -30,7 +30,15 @@ An internal clock that repeats roughly every 24 hours.
 
 ## L
 
+### Looksmaxxing
+
+The process of improving your looks and physical appearance.
+
 ## M
+
+### Mindfulness
+
+Being present in the moment and being aware of your thoughts.
 
 ## N
 
