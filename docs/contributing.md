@@ -10,7 +10,7 @@ Thank you for your interest in contributing to our open source self improvement 
 
 The project is build with [VitePress](https://vitepress.dev) guide files use markdown. The file structure looks like this:
 
-```tree{3,6-9}
+```txt{3,6-9}
 docs
 ├─ .vitepress
 │  └─ config.mts (settings of the page such as the sidebar, navbar, etc.)
