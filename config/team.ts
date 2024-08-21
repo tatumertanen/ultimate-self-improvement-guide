@@ -3,7 +3,7 @@ import { DISCORD_INVITE } from "../consts";
 export const members = [
 	{
 		avatar: "https://www.github.com/tatumertanen.png",
-		name: "Tatu",
+		name: "Tatu M",
 		title: "Founder",
 		links: [
 			{ icon: "discord", link: DISCORD_INVITE },
@@ -12,14 +12,14 @@ export const members = [
 		],
 	},
 	{
-		avatar: "/favicon.png",
-		name: "X",
-		title: "Maintainer",
+		avatar: "https://avatars.githubusercontent.com/u/179009542",
+		name: "Joel V",
+		title: "Co-Founder",
 		links: [{ icon: "discord", link: DISCORD_INVITE }],
 	},
 	{
-		avatar: "/favicon.png",
-		name: "X",
+		avatar: "/logo.png",
+		name: "Habitmaxx Community",
 		title: "Maintainer",
 		links: [{ icon: "discord", link: DISCORD_INVITE }],
 	},
