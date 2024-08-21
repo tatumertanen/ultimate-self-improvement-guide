@@ -1,18 +1,72 @@
+<script setup>
+import { DISCORD_INVITE, REPO_URL } from '../consts'
+</script>
+
 # Contributing to the Self Improvement Guide
 
 Thank you for your interest in contributing to our open source self improvement guide! We appreciate your support and welcome any contributions that can help improve the guide for everyone.
 
 ## Getting Started
 
-To get started with contributing, please follow these steps:
+The project is build with [VitePress](https://vitepress.dev) guide files use markdown. The file structure looks like this:
 
-1. Fork the repository to your own GitHub account.
-2. Clone the forked repository to your local machine.
-3. Install the necessary dependencies by running `npm install` in the project directory.
-4. Make your desired changes to the markdown files in the `docs` directory.
-5. Preview your changes locally by running `npm run docs:dev` and opening `http://localhost:5173` in your browser.
-6. Commit your changes and push them to your forked repository.
-7. Create a pull request from your forked repository to the main repository.
+```tree{3,6-9}
+docs
+├─ .vitepress
+│  └─ config.mts (settings of the page such as the sidebar, navbar, etc.)
+├─ public
+│  └─ favicon.ico
+├─ guides
+│  ├─ habits.md
+│  └─ sleep.md
+│  └─ ...
+├─ index.md (the homepage)
+├─ self-improvement.md
+└─ contributing.md
+```
+
+The sidebar is structured like this:
+
+```ts:line-numbers=31
+sidebar: [
+	{
+		text: "Introduction",
+		collapsed: false,
+		items: [
+            { text: "Getting Started", link: "/self-improvement", },
+        ],
+	},
+	{
+		text: "Guides",
+		collapsed: false,
+		items: [...]
+	},
+	{
+		text: "Methods",
+		collapsed: false,
+		items: [...],
+	},
+    ...
+],
+```
+
+## Content Edits and Suggestion
+
+If you have no experience with coding, we recommend you join our <a target="_blank" :href="DISCORD_INVITE">Discord</a> and ask for help.
+
+## Contributing
+
+You should start by reading the [VitePress Markdown Guide](https://vitepress.dev/guide/markdown) to understand how to format your content.
+
+If you are familiar with markdown, you can start by editing the existing files in the `docs` directory.
+
+We recommend you use the GitHub web interface to make changes. This allows you to preview your changes before submitting a pull request.
+
+The GitHub repository is located at <a target="_blank" :href="REPO_URL">{{ REPO_URL }}</a>.
+
+::: tip IMPORTANT
+Remember to follow the guidelines below when contributing changes.
+:::
 
 ## Guidelines
 
@@ -26,16 +80,6 @@ To ensure a smooth contribution process, please adhere to the following guidelin
 -   If you are modifying existing content, explain the reasoning behind your changes in the pull request description.
 -   Be respectful and considerate towards other contributors and maintainers.
 
-## Development Setup
-
-This self improvement guide is built using VitePress, a static site generator. To set up the development environment:
-
-1. Ensure you have Node.js installed on your machine.
-2. Clone the repository and navigate to the project directory.
-3. Run `npm install` to install the required dependencies.
-4. Run `npm run docs:dev` to start the local development server.
-5. Open `http://localhost:5173` in your browser to preview the guide.
-
 ## Reporting Issues
 
 If you encounter any issues or have suggestions for improvements, please open an issue on the GitHub repository. Provide as much detail as possible, including steps to reproduce the issue if applicable.
@@ -43,10 +87,6 @@ If you encounter any issues or have suggestions for improvements, please open an
 ## Contact
 
 If you have any questions or need further assistance, feel free to reach out to the maintainers of this repository. You can contact us via the following channels:
-
-<script setup>
-import { DISCORD_INVITE } from '../consts'
-</script>
 
 -   Email: contributing@habitmaxx.com
 -   Discord: <a :href="DISCORD_INVITE">{{ DISCORD_INVITE }}</a>
