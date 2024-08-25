@@ -28,7 +28,8 @@ Habit stacking, a technique described by James Clear in "Atomic Habits, " involv
 
 -   "After [CURRENT HABIT], I will [NEW HABIT]."
 -   Example: _After I brush my teeth, I will meditate for 5 minutes._
-    :::
+
+:::
 
 ### 2. Implementation Intentions
 
@@ -38,7 +39,8 @@ Research by psychologist Peter Gollwitzer shows that setting specific intentions
 
 -   "I will [BEHAVIOR] at [TIME] in [LOCATION]."
 -   Example: _I will do 20 push-ups at 7:00 AM in my bedroom._
-    :::
+
+:::
 
 ### 3. Make it Easy
 
@@ -47,7 +49,8 @@ B. J. Fogg's Tiny Habits method emphasizes starting with extremely small, easy-t
 ::: tip GUIDE: MAKING HABITS EASY
 
 -   Instead of `"I'll exercise for an hour daily,"` start with `"I'll do one push-up after waking up."`
-    :::
+
+:::
 
 ## Overcoming Common Obstacles
 
@@ -60,7 +63,8 @@ Motivation is often unreliable. Instead, focus on building systems that make it 
 -   Design your environment to support your habits
 -   Use visual cues as reminders
 -   Prepare in advance to reduce friction
-    :::
+
+:::
 
 ### 2. Dealing with Setbacks
 
@@ -71,7 +75,8 @@ Setbacks are a normal part of habit formation. Research by Dr. Janet Polivy on t
 -   Use the "never miss twice" rule (if you miss one day, never miss two in a row)
 -   Focus on progress, not perfection
 -   Analyze setbacks to identify triggers and plan for future obstacles
-    :::
+
+:::
 
 ### 3. Maintaining Consistency
 
@@ -82,7 +87,8 @@ Consistency is key to habit formation. Dr. Andrew Huberman emphasizes the import
 -   Perform habits at the same time each day to leverage circadian rhythms
 -   Use "habit trackers" to visualize progress and maintain motivation
 -   Gradually increase difficulty or duration of habits over time
-    :::
+
+:::
 
 ## Long-Term Habit Maintenance
 
@@ -94,7 +100,8 @@ Tracking habits provides visual feedback and motivation. Research shows that mon
 
 -   Use a physical calendar or habit tracking app
 -   Implement Jerry Seinfeld's "Don't Break the Chain" method
-    :::
+
+:::
 
 ### 2. Accountability Partners
 
@@ -105,7 +112,8 @@ Studies show that social support significantly increases adherence to new behavi
 -   Find a partner with similar goals
 -   Schedule regular check-ins
 -   Use apps or platforms designed for accountability partnerships
-    :::
+
+:::
 
 ### 3. Regular Review and Adjustment
 
@@ -116,7 +124,8 @@ Habits should evolve with your goals and circumstances. Schedule regular reviews
 -   Monthly habit review and goal alignment
 -   Quarterly reassessment of long-term objectives
 -   Annual reflection on overall progress and future directions
-    :::
+
+:::
 
 ## Conclusion
 
