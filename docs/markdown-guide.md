@@ -97,11 +97,13 @@ description: A guide to personal growth and development
 
 Link to other pages in your VitePress site using relative paths:
 
-[Getting Started](./getting-started.md)
+`[Getting Started](./getting-started.md)`
 
 ### Emoji
 
 VitePress supports emoji shortcodes:
+
+`:smile: :heart: :rocket:`
 
 :smile: :heart: :rocket:
 
