@@ -6,33 +6,40 @@ title: Getting Started With Self-Improvement
 
 <script setup>
 import { DISCORD_INVITE } from '../consts'
+import content from './.vitepress/content'
 </script>
 
 Welcome! We are building the best and biggest free and open-source guide to self-improvement. Join our <a :href="DISCORD_INVITE">Discord server</a> to discuss self-improvement and help us build the best possible guide!
 
-## 📜 Guides {#guides}
+## 📜 {{ content.guides.name }} {#guides}
 
-<Badge type="info" text="The guides are comprehensive collections of valuable infromation." />
+<Badge type="info" :text="content.guides.description" />
 
--   [**Habits**](/guides/habits) Learn about habits and how to build them.
--   [**Sleep**](/guides/sleep) Learn about sleep and how to improve it.
-<!-- -   [**Goals**](/guides/goals) Learn about goals and how to set SMART goals. -->
+<ul>
+    <template v-for="item in content.guides.items">
+        <li><a :href="item.link">{{ item.text }}</a></li>
+    </template>
+</ul>
 
-## ⚙ Methods & Techniques {#methods}
+## ⚙ {{ content.methods.name }} {#methods}
 
-<Badge type="info" text="The method guides are collections of specific techniques." />
+<Badge type="info" :text="content.methods.description" />
 
--   [**Looksmaxxing**](/methods/looksmaxxing) Best looksmaxxing techniques & methods.
-<!-- -   [**Journaling**](/methods/journaling) Best journaling techniques & methods. -->
+<ul>
+    <template v-for="item in content.methods.items">
+            <li><a :href="item.link">{{ item.text }}</a></li>
+    </template>
+</ul>
 
-## 📚 Resources {#resources}
+## 📚 {{ content.resources.name }} {#resources}
 
-<Badge type="info" text="The resources are collections of useful exteranl resources." />
+<Badge type="info" :text="content.resources.description" />
 
--   [**Books**](/resources#books) Best books for self-improvement.
--   [**Podcasts**](/resources#podcasts) Best podcasts for self-improvement.
--   [**Websites**](/resources#websites) Best websites for self-improvement.
--   [**Apps**](/resources#apps) Best apps for self-improvement.
+<ul>
+    <template v-for="item in content.resources.items">
+        <li><a :href="item.link">{{ item.text }}</a></li>
+    </template>
+</ul>
 
 ## 🔗 Other Links {#other}
 

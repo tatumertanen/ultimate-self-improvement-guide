@@ -10,16 +10,20 @@ Thank you for your interest in contributing to our open source self improvement 
 
 The project is build with [VitePress](https://vitepress.dev) guide files use markdown. The file structure looks like this:
 
-```txt{3,6-9}
+```txt
 docs
 ├─ .vitepress
-│  └─ config.mts (settings of the page such as the sidebar, navbar, etc.)
+│  └─ config.mts (settings of the page such as the sidebar, navbar, etc.) // [!code highlight]
 ├─ public
 │  └─ favicon.ico
-├─ guides
-│  ├─ habits.md
-│  └─ sleep.md
-│  └─ ...
+├─ guides // [!code highlight]
+│  ├─ habits.md // [!code highlight]
+│  └─ sleep.md // [!code highlight]
+│  └─ ... // [!code highlight]
+├─ methods // [!code highlight]
+│  ├─ looksmaxxing.md // [!code highlight]
+│  └─ ... // [!code highlight]
+├─ resources.md (resources page) // [!code highlight]
 ├─ index.md (the homepage)
 ├─ self-improvement.md
 └─ contributing.md

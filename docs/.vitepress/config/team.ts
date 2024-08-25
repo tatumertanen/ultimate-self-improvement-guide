@@ -1,6 +1,6 @@
-import { DISCORD_INVITE } from "../../consts";
+import { DISCORD_INVITE } from "../../../consts";
 
-export const members = [
+export default [
     {
         avatar: "https://www.github.com/tatumertanen.png",
         name: "Tatu M",

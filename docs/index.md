@@ -39,7 +39,7 @@ import {
   VPTeamPageTitle,
   VPTeamMembers
 } from 'vitepress/theme'
-import { members } from "./.vitepress/team"
+import team from "./.vitepress/config/team"
 </script>
 <br />
 <br />
@@ -50,5 +50,5 @@ import { members } from "./.vitepress/team"
 
 <VPTeamMembers
   size="small"
-  :members="members"
+  :members="team"
 />

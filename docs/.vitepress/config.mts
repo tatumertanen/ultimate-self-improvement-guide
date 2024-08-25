@@ -1,110 +1,83 @@
 import { defineConfig } from "vitepress";
-import { DISCORD_INVITE, GTAG, HOSTNAME, REPO_URL } from "../../consts";
+import { NAME, DISCORD_INVITE, GTAG, HOSTNAME, REPO_URL } from "../../consts";
+import content from "./content";
 
-type Guide = {
-    text: string;
-    link: string;
-};
+const navigation = [
+    { text: "🚀 Getting Started", link: "/self-improvement" },
+    { text: "👨‍💻 Contributing", link: "/contributing" },
+    { text: "💬 Community", link: DISCORD_INVITE },
+    {
+        text: "",
+        items: [
+            { text: "💡 Ideas", link: `${REPO_URL}/discussions/ideas` },
+            { text: "💬 Feedback", link: `${REPO_URL}/feedback` },
+            { text: "💬 Support", link: `${REPO_URL}/support` },
+            { text: "💬 General", link: `${REPO_URL}/general` },
+            { text: "💬 Ideas", link: `${REPO_URL}/ideas` },
+        ],
+    },
+];
 
-const guides: Guide[] = [
-    { text: "✨ Building Habits", link: "/guides/habits" },
-    { text: "🏆 Goals", link: "/guides/goals" },
-    { text: "🧠 Mindset", link: "/guides/mindset" },
-    { text: "📚 Reading Books", link: "/guides/reading" },
-    { text: "💤 Optimizing Sleep", link: "/guides/sleep" },
-    { text: "⚡ Productivity", link: "/guides/productivity" },
-    { text: "🥩 Breaking Addiction", link: "/guides/addiction" },
-    { text: "🧘‍♂️ Mindfulness", link: "/guides/mindfulness" },
-    { text: "👨‍🎓 Studying", link: "/guides/studying" },
-    { text: "💪 Gym & Exercise", link: "/guides/gym" },
-    { text: "🏃‍♂️ Weight Loss", link: "/guides/weight-loss" },
-    { text: "🚿 Cold Showers", link: "/guides/cold-showers" },
+const sidebar = [
+    {
+        text: "Introduction",
+        collapsed: false,
+        items: [
+            {
+                text: "🚀 Getting Started",
+                link: "/self-improvement",
+            },
+        ],
+    },
+    {
+        text: "Guides",
+        collapsed: false,
+        items: content.guides.items,
+    },
+    {
+        text: "Methods",
+        collapsed: false,
+        items: content.methods.items,
+    },
+    {
+        text: "Resources",
+        collapsed: false,
+        items: content.resources.items,
+    },
+    {
+        items: [
+            {
+                text: "🗣 Glossary",
+                link: "/glossary",
+            },
+            {
+                text: "📝 Contributing",
+                link: "/contributing",
+            },
+            { text: "Contact", link: "/contact" },
+            { text: "Discord", link: DISCORD_INVITE },
+            {
+                text: "Support Us",
+                link: "https://buymeacoffee.com/selfimprovementguide",
+            },
+        ],
+    },
 ];
 
 export default defineConfig({
     lang: "en-US",
-    title: "Habitmaxx | Ultimate Self-Improvement Guide",
+    title: `${NAME} | Ultimate Self-Improvement Guide`,
     description:
         "This is a open source guide to self-improvement. Find methods, guides, techniques, all for free. Contribute to the guides with the newest information and join a community of alike minded people.",
-
+    lastUpdated: true,
+    cleanUrls: true,
+    sitemap: {
+        hostname: HOSTNAME,
+    },
     themeConfig: {
-        siteTitle: "Habitmaxx",
-        nav: [
-            { text: "📚 Guides", items: guides },
-            { text: "📝 Contributing", link: "/contributing" },
-            { text: "🗣 Glossary", link: "/glossary" },
-        ],
-        sidebar: [
-            {
-                text: "Introduction",
-                collapsed: false,
-                items: [
-                    {
-                        text: "Getting Started",
-                        link: "/self-improvement",
-                    },
-                ],
-            },
-            {
-                text: "Guides",
-                collapsed: false,
-                items: guides,
-            },
-            {
-                text: "Methods",
-                collapsed: false,
-                items: [
-                    {
-                        text: "Looksmaxxing",
-                        link: "/methods/looksmaxxing",
-                    },
-                ],
-            },
-            {
-                text: "Resources",
-                collapsed: false,
-                items: [
-                    {
-                        text: "Books",
-                        link: "/resources#books",
-                    },
-                    {
-                        text: "Podcasts",
-                        link: "/resources#podcasts",
-                    },
-                    {
-                        text: "YouTube Channels",
-                        link: "/resources#youtube-channels",
-                    },
-                    {
-                        text: "Websites",
-                        link: "/resources#websites",
-                    },
-                    {
-                        text: "Apps",
-                        link: "/resources#apps",
-                    },
-                ],
-            },
-            {
-                items: [
-                    {
-                        text: "Glossary",
-                        link: "/glossary",
-                    },
-                    {
-                        text: "Contributing",
-                        link: "/contributing",
-                    },
-                    { text: "Contact", link: "/contact" },
-                    { text: "Discord", link: DISCORD_INVITE },
-                    {
-                        text: "Support Us",
-                        link: "https://buymeacoffee.com/selfimprovementguide",
-                    },
-                ],
-            },
-        ],
+        nav: navigation,
+        sidebar: sidebar,
+        siteTitle: NAME,
         logo: "/favicon.png",
         socialLinks: [
             { icon: "github", link: REPO_URL },
@@ -147,9 +120,4 @@ export default defineConfig({
         `,
         ],
     ],
-    lastUpdated: true,
-    cleanUrls: true,
-    sitemap: {
-        hostname: HOSTNAME,
-    },
 });
