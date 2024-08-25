@@ -1,4 +1,4 @@
-import { DISCORD_INVITE } from "../consts";
+import { DISCORD_INVITE } from "../../consts";
 
 export const members = [
     {
