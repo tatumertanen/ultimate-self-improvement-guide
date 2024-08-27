@@ -71,6 +71,7 @@ export default defineConfig({
         "This is a open source guide to self-improvement. Find methods, guides, techniques, all for free. Contribute to the guides with the newest information and join a community of alike minded people.",
     lastUpdated: true,
     cleanUrls: true,
+    appearance: "force-dark",
     sitemap: {
         hostname: HOSTNAME,
     },
